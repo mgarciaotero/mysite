@@ -6,21 +6,23 @@ body{
     margin:0;
 }
 
+img {
+    max-width: 360px;
+}
+
 div.c {
     width: 30%;
     border: 1px solid black;  
 }
 
-
+cite { 
+    font-style: italic;
+}
 
 /* global styles to all links on page*/
 a{
     text-decoration: none;
-    color:#000;
-}
-
-a:hover{
-    color:green;
+    color: black;
 }
 
 h1{
@@ -33,9 +35,9 @@ h1{
 }
 
 .box-1{
-    background-color: #333;
+    background-color: rgba(0, 0, 255, 0.258);
     color:#fff;
-    border:10px red solid;
+    border:10px gray;
     padding:20px;
 
     margin-top:30px;
@@ -84,5 +86,4 @@ h1{
 #customers tr:nth-child(even) {
     background-color: #D3D3D3;
 }
-
 
