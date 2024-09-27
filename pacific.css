@@ -13,7 +13,7 @@
 body {
 	height:100%;
 	width:100%;
-	background-image: url("/images/ptrbackground.jpg");
+	background-image: url("ptrbackground.jpg");
 	/*background-color: pink;*/
 	border-bottom: 50px solid navy;
 	margin: 0;	
@@ -83,7 +83,7 @@ body {
 		}
 /* start testing here and li::marker */
 		#content > ul {
-		/*	list-style-type: (/images/marker.gif); */
+		/*	list-style-type: (marker.gif); */
 			margin-left: 0;
 			list-style-position: inside;             
 		}
@@ -93,7 +93,7 @@ body {
 			padding-right: 0;
 		}
 		#content li::marker {
-			content: url(/images/marker.gif);
+			content: url(marker.gif);
 			
 		}
 		footer {
