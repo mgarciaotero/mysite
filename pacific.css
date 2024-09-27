@@ -38,7 +38,7 @@ body {
 			grid-row: 1 / 2;
 			color: white;
 			/*background-color: purple;*/		
-			background-image: url("/images/sunset.jpg");
+			background-image: url("sunset.jpg");
 			/*background-repeat: no-repeat; */
  			background-size: 100% 100%;
 		}
