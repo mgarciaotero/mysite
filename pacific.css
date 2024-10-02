@@ -1,12 +1,29 @@
-/* Fall 2024 GUI I - HW2
+/* Fall 2024 GUI I
+   HW2
    Margarita Garcia-Otero
-   filename:pacific.css
+   UML ID #01746832
+
+   Modified file:pacific.css
+
+   Github link: mgarciaotero.github.io/mysite/
+   (Github link is also in github_link.txt file)
+
+   Description:  I modified pacific.css file provided by the instructor
+   to so the html elements and images display and flow as described by
+   Capture1 - Capture5 JPG files provided in HW2_read directory.
+   The five JPG files show the desired behavior of elements when content is resized 
+   or window is changed.  Paragraphs flow as they should around the image as
+   window shrinks and grows.  Body div has a bottom border in the required color.
+   (Gradient background extends behind the bottom border.)
+   I have a few one-line comments in this file for reference.
+
+   Github link is also in github_link.txt file
+
    Note: CSS page validates at https://jigsaw.w3.org/css-validator/
          but icon was not added.
-   Also, I kept pacific.css image in same directory as html file since
-		html file is not to be changed.  Other images were all put in
-		the images folder.
-*/
+   Also, I kept image files in same directory as html file since
+		html file was not to be changed.   
+*/ 
 
 /* change box-sizing to see positions better */
 * {box-sizing: border-box;}
